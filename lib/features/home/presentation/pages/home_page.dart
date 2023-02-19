@@ -15,23 +15,21 @@ class HomePage extends StatelessWidget {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'home',
+            label: 'Feed',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'discovery',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'library',
+            icon: Icon(Icons.map),
+            label: 'Trip',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'profile',
+            label: 'Profile',
           ),
         ],
       ),
-      body: Container(),
+      body: Container(
+        color: Colors.amber,
+      ),
     );
   }
 }
